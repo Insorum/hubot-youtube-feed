@@ -17,11 +17,11 @@
 
 module.exports = (robot) ->
 
-  robot.respond /yf add (.*?)$/, (msg) ->
+  robot.respond /yf add (.*?)$/i, (msg) ->
     # do stuff
 
-  robot.respond /yf remove (.*?)$/, (msg) ->
+  robot.respond /yf remove (.*?)$/i, (msg) ->
     # do stuff
 
-  robot.respond /yf list$/, (msg) ->
+  robot.respond /yf list$/i, (msg) ->
     # do stuff
