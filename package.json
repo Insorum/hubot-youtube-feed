@@ -2,7 +2,7 @@
   "name": "hubot-youtube-feed",
   "version": "0.0.1",
   "description": "Posts new videos from specified users to slack when they are uploaded",
-  "main": "./src/index.coffee",
+  "main": "./src/youtube.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Eluinhost/hubot-youtube-feed.git"
