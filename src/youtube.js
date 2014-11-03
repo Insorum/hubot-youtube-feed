@@ -17,25 +17,7 @@
 
 module.exports = function(robot) {
 
-    var notifcations = getNotifications();
-
-    /**
-     * @returns {Array} list of all saved notifications
-     */
-    function getNotifications() {
-        var list = robot.brain.get('youtube-feed.notifications');
-        return list || [];
-    }
-
-    /**
-     * @param user
-     * @param channel
-     * @constructor
-     */
-    function YoutubeNotification(user, channel) {
-        this.user = user;
-        this.channel = channel;
-    }
+    var notificationList = require('./lib/notification-list.js')(robot.brain);
 
     /**
      * @param id
@@ -62,31 +44,6 @@ module.exports = function(robot) {
                 });
                 return videos;
             });
-    }
-
-    function saveNotifications() {
-        robot.brain.set('youtube-feed.users', notifcations);
-    }
-
-    /**
-     * @param {YoutubeNotification} not
-     * @return {bool} true if added, false if was already in list
-     */
-    function addNotification(not) {
-        // TODO check if notification is already in list
-        notifcations.push(user);
-        saveNotifications();
-        return true;
-    }
-
-    /**
-     * @param {YoutubeNotification} not
-     * @return {bool} true if removed, false if not in list
-     */
-    function removeNotification(not) {
-        //TODO remove the notification
-        saveNotifications();
-        return true;
     }
 
     /**
