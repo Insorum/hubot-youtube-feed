@@ -18,46 +18,8 @@
 module.exports = function(robot) {
 
     var notificationList = require('./lib/notification-list.js')(robot.brain);
+    var videoFetcher = require('./lib/video-fetcher.js')(robot);
 
-    /**
-     * @param id
-     * @param link
-     * @constructor
-     */
-    function YoutubeVideo(id, link) {
-        this.id = id;
-        this.link = link;
-    }
-
-    /**
-     * @param {String} user
-     * @returns {YoutubeVideo[]}
-     */
-    function getYoutubeVideos(user) {
-        robot.http('https://gdata.youtube.com/feeds/api/users/' + user + '/uploads?alt=json')
-            .header('Accept', 'application/json')
-            .get(function (err, res, body) {
-                if (err) return;
-                var videos = [];
-                JSON.parse(body).feed.entry.forEach(function(element) {
-                    videos.push(new YoutubeVideo(element.id, element.link[0]));
-                });
-                return videos;
-            });
-    }
-
-    /**
-     * @param {YoutubeNotification} not
-     */
-    function checkForNewVideos(not) {
-        var videos = getYoutubeVideos(not.user);
-
-        //TODO check against last version and send messages for new videos
-    }
-
-    function checkAll() {
-        notifcations.forEach(checkForNewVideos);
-    }
 
     robot.respond(/yf add(.*?)$/i, function(msg) {
         var name = msg.match[1];
