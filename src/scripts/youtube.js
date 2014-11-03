@@ -15,8 +15,6 @@
 // Author:
 //   Eluinhost
 
-var Youtube = require('youtube-api');
-
 module.exports = function(robot) {
 
     var notifcations = getNotifications();
