@@ -23,7 +23,7 @@ module.exports = function(robot) {
 
     robot.respond(/yf add(.*?)$/i, function(msg) {
         var name = msg.match[1];
-        if(addNotification(new YoutubeNotification(name, msg.room))) {
+        if(notificationList.addNotificationsFor(name, msg.room)) {
             msg.reply('Added notifications for: ' + name);
         } else {
             msg.reply(name + ' is already set for notifications in this channel');
@@ -32,7 +32,7 @@ module.exports = function(robot) {
 
     robot.respond(/yf remove(.*?)$/i, function(msg) {
         var name = msg.match[1];
-        if(removeNotification(new YoutubeNotification(name, msg.room))) {
+        if(notificationList.removeNotificationsFor(name, msg.room)) {
             msg.reply('Removed notifications for: ' + name);
         } else {
             msg.reply(name + ' is not set for notifications in this channel');
@@ -40,14 +40,14 @@ module.exports = function(robot) {
     });
 
     robot.respond(/yf list$/i, function(msg) {
-        if(notifcations.length === 0) {
-            msg.reply('No notifications set for this channel');
+        if(notificationList.notifications.length === 0) {
+            msg.reply('No notifications are set for this channel');
             return;
         }
-        var userList = notifcations.map(function(element) {
-            return element.user;
+        var userList = notificationList.notifications.map(function(element) {
+            return element.username;
         }).join(', ');
 
-        msg.reply('Notifications for: ' + userList);
+        msg.reply('Notifications for this channel: ' + userList);
     });
 };
