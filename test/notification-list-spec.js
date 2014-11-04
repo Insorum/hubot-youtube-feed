@@ -21,6 +21,7 @@
         it('gets the initial information from the brain', function() {
             expect(this.brain.get).to.have.been.calledOnce;
             expect(list.notifications).to.be.deep.equal([initialObject]);
+            expect(this.brain.set).to.have.not.been.called;
         });
 
         it('saves when adding a single notification', function() {
@@ -86,7 +87,19 @@
             expect(list.isNotifyingFor('init-username', '#init-channel')).to.be.ok;
             expect(list.isNotifyingFor('init-username', '#init-channel-changed')).to.not.be.ok;
             expect(list.isNotifyingFor('init-username-changed', '#init-channel')).to.not.be.ok;
-        })
+        });
+
+        it('should set initial data if none already set', function() {
+            var customBrain = {
+                get: sinon.stub(),
+                set: sinon.spy()
+            };
+            customBrain.get.returns(null);
+            list = require('../src/lib/notification-list')(customBrain);
+
+            expect(customBrain.get).to.have.been.calledOnce
+            expect(customBrain.set).to.have.been.calledWithExactly('youtubeFeed.notifyFor', []);
+        });
     });
 
 }).call(this);

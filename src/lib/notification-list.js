@@ -5,7 +5,20 @@
 var listKey = 'youtubeFeed.notifyFor';
 
 module.exports = function NotificationList(brain) {
-    var notifications = brain.get(listKey) || [];
+    var notifications = brain.get(listKey);
+
+    /**
+     * Saves the notifications to the brain
+     */
+    var saveNotifications = function() {
+        brain.set(listKey, notifications);
+    };
+
+    // make sure the data is set if we didn't already have any
+    if(notifications === null) {
+        notifications = [];
+        saveNotifications();
+    }
 
     /**
      * Adds the given username to the list of names for notifications
@@ -71,13 +84,6 @@ module.exports = function NotificationList(brain) {
      */
     var isNotifyingFor = function(username, channel) {
         return findIndexOf(username, channel) > -1;
-    };
-
-    /**
-     * Saves the notifications to the brain
-     */
-    var saveNotifications = function() {
-        brain.set(listKey, notifications);
     };
 
     return {
