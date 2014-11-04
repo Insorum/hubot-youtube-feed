@@ -9,6 +9,8 @@
   },
   "keywords": [
     "hubot",
+    "hubot-script",
+    "script",
     "youtube"
   ],
   "author": "Eluinhost",
@@ -16,5 +18,18 @@
   "bugs": {
     "url": "https://github.com/Eluinhost/hubot-youtube-feed/issues"
   },
-  "homepage": "https://github.com/Eluinhost/hubot-youtube-feed"
+  "homepage": "https://github.com/Eluinhost/hubot-youtube-feed",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "load-grunt-tasks": "*",
+    "grunt-contrib-watch": "~0.5.3"
+  }
 }
