@@ -17,7 +17,7 @@ module.exports = function VideoFetcher(robot) {
                     return;
                 }
 
-                if(res.statusCode > 400) {
+                if(res.statusCode >= 400) {
                     result.reject(body);
                     return;
                 }
