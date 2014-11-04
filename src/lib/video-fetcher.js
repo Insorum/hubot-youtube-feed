@@ -17,6 +17,11 @@ module.exports = function VideoFetcher(robot) {
                     return;
                 }
 
+                if(res.statusCode > 400) {
+                    result.reject(body);
+                    return;
+                }
+
                 var parsed;
                 try {
                     parsed = JSON.parse(body);
