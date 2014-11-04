@@ -21,7 +21,7 @@ module.exports = function(robot) {
     var videoFetcher = require('./lib/video-fetcher.js')(robot);
 
 
-    robot.respond(/yf add(.*?)$/i, function(msg) {
+    robot.respond(/yf add (.*?)$/i, function(msg) {
         var name = msg.match[1];
         if(notificationList.addNotificationsFor(name, msg.room)) {
             msg.reply('Added notifications for: ' + name);
@@ -30,7 +30,7 @@ module.exports = function(robot) {
         }
     });
 
-    robot.respond(/yf remove(.*?)$/i, function(msg) {
+    robot.respond(/yf remove (.*?)$/i, function(msg) {
         var name = msg.match[1];
         if(notificationList.removeNotificationsFor(name, msg.room)) {
             msg.reply('Removed notifications for: ' + name);
