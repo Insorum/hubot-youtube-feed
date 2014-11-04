@@ -11,18 +11,26 @@ module.exports = function VideoFetcher(robot) {
         var result = q.defer();
         robot.http('https://gdata.youtube.com/feeds/api/users/' + username + '/uploads?alt=json')
             .header('Accept', 'application/json')
-            .get(function (err, res, body) {
+            .get()(function (err, res, body) {
                 if (err) {
                     result.reject(err);
                     return;
                 }
-                var videos = [];
-                JSON.parse(body).feed.entry.forEach(function(element) {
-                    videos.push({
-                        id: element.id,
-                        link: element.link[0]
-                    });
+
+                var parsed;
+                try {
+                    parsed = JSON.parse(body);
+                } catch (e) {
+                    result.reject(e);
+                }
+
+                var videos = parsed.feed.entry.map(function(element) {
+                    return {
+                        id: element.id.$t,
+                        link: element.link[0].href
+                    }
                 });
+
                 result.resolve(videos);
             });
         return result.promise;
