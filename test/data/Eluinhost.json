@@ -1,0 +1,4066 @@
+{"version": "1.0", "encoding": "UTF-8", "feed": {
+    "xmlns": "http://www.w3.org/2005/Atom",
+    "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+    "xmlns$gd": "http://schemas.google.com/g/2005",
+    "xmlns$yt": "http://gdata.youtube.com/schemas/2007",
+    "xmlns$media": "http://search.yahoo.com/mrss/",
+    "id": {
+        "$t": "http://gdata.youtube.com/feeds/api/users/Eluinhost/uploads"
+    },
+    "updated": {
+        "$t": "2014-11-04T10:50:54.116Z"
+    },
+    "category": [
+        {
+            "scheme": "http://schemas.google.com/g/2005#kind",
+            "term": "http://gdata.youtube.com/schemas/2007#video"
+        }
+    ],
+    "title": {
+        "$t": "Uploads by Eluinhost",
+        "type": "text"
+    },
+    "logo": {
+        "$t": "http://www.gstatic.com/youtube/img/logo.png"
+    },
+    "link": [
+        {
+            "rel": "related",
+            "type": "application/atom+xml",
+            "href": "https://gdata.youtube.com/feeds/api/users/eluinhost"
+        },
+        {
+            "rel": "alternate",
+            "type": "text/html",
+            "href": "https://www.youtube.com/channel/UCKFC-0qG5uK6Oo783j-9ndg/videos"
+        },
+        {
+            "rel": "http://schemas.google.com/g/2005#feed",
+            "type": "application/atom+xml",
+            "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads"
+        },
+        {
+            "rel": "http://schemas.google.com/g/2005#batch",
+            "type": "application/atom+xml",
+            "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/batch"
+        },
+        {
+            "rel": "self",
+            "type": "application/atom+xml",
+            "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads?alt=json&start-index=1&max-results=25"
+        },
+        {
+            "rel": "next",
+            "type": "application/atom+xml",
+            "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads?alt=json&start-index=26&max-results=25"
+        }
+    ],
+    "author": [
+        {
+            "name": {
+                "$t": "Eluinhost"
+            },
+            "uri": {
+                "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+            }
+        }
+    ],
+    "generator": {
+        "$t": "YouTube data API",
+        "version": "2.1",
+        "uri": "http://gdata.youtube.com"
+    },
+    "openSearch$totalResults": {
+        "$t": 71
+    },
+    "openSearch$startIndex": {
+        "$t": 1
+    },
+    "openSearch$itemsPerPage": {
+        "$t": 25
+    },
+    "entry": [
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/m2N6GJBJJi4"
+            },
+            "published": {
+                "$t": "2014-08-05T19:54:07.000Z"
+            },
+            "updated": {
+                "$t": "2014-08-23T02:07:22.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "WMC 5.5: When Miners Cheat",
+                "type": "text"
+            },
+            "content": {
+                "$t": "http://www.reddit.com/r/ultrahardcore/comments/1jwwji/wmc_season_55_when_miners_cake_episode_1/\n\nThis video is NOT SERIOUS. All opinions provided in this video do not reflect my own opinions but those of Fairyjuice Inc. Blame them.\n\nMusic:\nKevin MacLoed - http://incompetech.com/\nHoly Pain - http://freemusicarchive.org/music/Holy_Pain/Last_Sigh/01_-_Holy_Pain_-_The_Ambassador_Of_Death",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=m2N6GJBJJi4&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/m2N6GJBJJi4/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=m2N6GJBJJi4"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/m2N6GJBJJi4"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/m2N6GJBJJi4/comments",
+                    "countHint": 8
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/m2N6GJBJJi4?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 343,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r6---sn-cg07lue6.c.youtube.com/CigLENy73wIaHwkuJkmQGHpjmxMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 343,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r6---sn-cg07lue6.c.youtube.com/CigLENy73wIaHwkuJkmQGHpjmxMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 343,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "http://www.reddit.com/r/ultrahardcore/comments/1jwwji/wmc_season_55_when_miners_cake_episode_1/\n\nThis video is NOT SERIOUS. All opinions provided in this video do not reflect my own opinions but those of Fairyjuice Inc. Blame them.\n\nMusic:\nKevin MacLoed - http://incompetech.com/\nHoly Pain - http://freemusicarchive.org/music/Holy_Pain/Last_Sigh/01_-_Holy_Pain_-_The_Ambassador_Of_Death",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=m2N6GJBJJi4&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/m2N6GJBJJi4/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:02:51.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/m2N6GJBJJi4/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:01:25.750"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/m2N6GJBJJi4/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:02:51.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/m2N6GJBJJi4/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:04:17.250"
+                    }
+                ],
+                "media$title": {
+                    "$t": "WMC 5.5: When Miners Cheat",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "343"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 18,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$recorded": {
+                "$t": "2013-07-07"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "310"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/V7DFfmgZkFI"
+            },
+            "published": {
+                "$t": "2013-01-31T20:30:38.000Z"
+            },
+            "updated": {
+                "$t": "2014-09-16T23:09:37.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Mindcrack Fan Server Clash - UHC - Ep. 5",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Welcome to the first battle of the Server Clash series. This series puts two servers against each other in a battle to the death... or other objectives based on the game type:\n \nThis time we will be playing Ultra Hardcore, a Minecraft mod that turns off health regeneration. The only way to get back health is with a golden apple or health potions. The recipes for golden apples have also changed to require ingots instead of nuggets. Our two teams will battle to see the last one standing.\n \nMindcrack Reddit Server:\n \nAudicyMC: http://www.youtube.com/user/audicymc\n \nghowden: http://www.youtube.com/user/Eluinhost\n \nFairyjuice: http://www.youtube.com/user/Entropiestromstaerke\n \nsonmica: http://www.youtube.com/user/sonmicaLP\n \nMindcrack Fan Server:\n \nAubron: http://www.youtube.com/user/AubThaMan\n \nArrowheadcobra: http://www.youtube.com/user/ArrowhoodCobra\n \nAtomic2354: http://www.youtube.com/user/atomic2354\n \nUisdead99: http://www.youtube.com/user/uisdead99\n \n \nIntro by: sonmica ( http://www.youtube.com/user/sonmicaLP )\n \nArt by: arrowheadcobra ( http://pitch-black-cobra.deviantart.com/ ) and RedDyeNo5 ( http://reddyeno5.deviantart.com )\n \nIntro Music: \"Phantom\" by Topaz Locket ( http://soundcloud.com/topaz-locket/phantom - used with permission )\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=V7DFfmgZkFI&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/V7DFfmgZkFI/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=V7DFfmgZkFI"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/V7DFfmgZkFI"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/V7DFfmgZkFI/comments",
+                    "countHint": 11
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/V7DFfmgZkFI?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 1192,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r2---sn-cg07luer.c.youtube.com/CigLENy73wIaHwlSkBlofsWwVxMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1192,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r2---sn-cg07luer.c.youtube.com/CigLENy73wIaHwlSkBlofsWwVxMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1192,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Welcome to the first battle of the Server Clash series. This series puts two servers against each other in a battle to the death... or other objectives based on the game type:\n \nThis time we will be playing Ultra Hardcore, a Minecraft mod that turns off health regeneration. The only way to get back health is with a golden apple or health potions. The recipes for golden apples have also changed to require ingots instead of nuggets. Our two teams will battle to see the last one standing.\n \nMindcrack Reddit Server:\n \nAudicyMC: http://www.youtube.com/user/audicymc\n \nghowden: http://www.youtube.com/user/Eluinhost\n \nFairyjuice: http://www.youtube.com/user/Entropiestromstaerke\n \nsonmica: http://www.youtube.com/user/sonmicaLP\n \nMindcrack Fan Server:\n \nAubron: http://www.youtube.com/user/AubThaMan\n \nArrowheadcobra: http://www.youtube.com/user/ArrowhoodCobra\n \nAtomic2354: http://www.youtube.com/user/atomic2354\n \nUisdead99: http://www.youtube.com/user/uisdead99\n \n \nIntro by: sonmica ( http://www.youtube.com/user/sonmicaLP )\n \nArt by: arrowheadcobra ( http://pitch-black-cobra.deviantart.com/ ) and RedDyeNo5 ( http://reddyeno5.deviantart.com )\n \nIntro Music: \"Phantom\" by Topaz Locket ( http://soundcloud.com/topaz-locket/phantom - used with permission )\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=V7DFfmgZkFI&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/V7DFfmgZkFI/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:09:56"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/V7DFfmgZkFI/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:04:58"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/V7DFfmgZkFI/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:09:56"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/V7DFfmgZkFI/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:14:54"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Mindcrack Fan Server Clash - UHC - Ep. 5",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "1192"
+                }
+            },
+            "gd$rating": {
+                "average": 4.8333335,
+                "max": 5,
+                "min": 1,
+                "numRaters": 24,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "1005"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/nCq4GzejmqQ"
+            },
+            "published": {
+                "$t": "2013-01-29T20:30:23.000Z"
+            },
+            "updated": {
+                "$t": "2013-08-24T18:05:14.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Mindcrack Fan Server Clash - UHC - Ep. 4",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Welcome to the first battle of the Server Clash series. This series puts two servers against each other in a battle to the death... or other objectives based on the game type:\n \nThis time we will be playing Ultra Hardcore, a Minecraft mod that turns off health regeneration. The only way to get back health is with a golden apple or health potions. The recipes for golden apples have also changed to require ingots instead of nuggets. Our two teams will battle to see the last one standing.\n \nMindcrack Reddit Server:\n \nAudicyMC: http://www.youtube.com/user/audicymc\n \nghowden: http://www.youtube.com/user/Eluinhost\n \nFairyjuice: http://www.youtube.com/user/Entropiestromstaerke\n \nsonmica: http://www.youtube.com/user/sonmicaLP\n \nMindcrack Fan Server:\n \nAubron: http://www.youtube.com/user/AubThaMan\n \nArrowheadcobra: http://www.youtube.com/user/ArrowhoodCobra\n \nAtomic2354: http://www.youtube.com/user/atomic2354\n \nUisdead99: http://www.youtube.com/user/uisdead99\n \n \nIntro by: sonmica ( http://www.youtube.com/user/sonmicaLP )\n \nArt by: arrowheadcobra ( http://pitch-black-cobra.deviantart.com/ ) and RedDyeNo5 ( http://reddyeno5.deviantart.com )\n \nIntro Music: \"Phantom\" by Topaz Locket ( http://soundcloud.com/topaz-locket/phantom - used with permission )\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=nCq4GzejmqQ&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/nCq4GzejmqQ/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=nCq4GzejmqQ"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/nCq4GzejmqQ"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/nCq4GzejmqQ/comments",
+                    "countHint": 3
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/nCq4GzejmqQ?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 1255,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r3---sn-cg07luee.c.youtube.com/CigLENy73wIaHwmkmqM3G7gqnBMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1255,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r3---sn-cg07luee.c.youtube.com/CigLENy73wIaHwmkmqM3G7gqnBMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1255,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Welcome to the first battle of the Server Clash series. This series puts two servers against each other in a battle to the death... or other objectives based on the game type:\n \nThis time we will be playing Ultra Hardcore, a Minecraft mod that turns off health regeneration. The only way to get back health is with a golden apple or health potions. The recipes for golden apples have also changed to require ingots instead of nuggets. Our two teams will battle to see the last one standing.\n \nMindcrack Reddit Server:\n \nAudicyMC: http://www.youtube.com/user/audicymc\n \nghowden: http://www.youtube.com/user/Eluinhost\n \nFairyjuice: http://www.youtube.com/user/Entropiestromstaerke\n \nsonmica: http://www.youtube.com/user/sonmicaLP\n \nMindcrack Fan Server:\n \nAubron: http://www.youtube.com/user/AubThaMan\n \nArrowheadcobra: http://www.youtube.com/user/ArrowhoodCobra\n \nAtomic2354: http://www.youtube.com/user/atomic2354\n \nUisdead99: http://www.youtube.com/user/uisdead99\n \n \nIntro by: sonmica ( http://www.youtube.com/user/sonmicaLP )\n \nArt by: arrowheadcobra ( http://pitch-black-cobra.deviantart.com/ ) and RedDyeNo5 ( http://reddyeno5.deviantart.com )\n \nIntro Music: \"Phantom\" by Topaz Locket ( http://soundcloud.com/topaz-locket/phantom - used with permission )\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=nCq4GzejmqQ&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/nCq4GzejmqQ/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:10:27.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/nCq4GzejmqQ/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:05:13.750"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/nCq4GzejmqQ/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:10:27.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/nCq4GzejmqQ/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:15:41.250"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Mindcrack Fan Server Clash - UHC - Ep. 4",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "1255"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 4,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "214"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/DuaV5GxNl0c"
+            },
+            "published": {
+                "$t": "2013-01-27T20:30:08.000Z"
+            },
+            "updated": {
+                "$t": "2013-12-21T10:42:21.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Mindcrack Fan Server Clash - UHC - Ep. 3",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Welcome to the first battle of the Server Clash series. This series puts two servers against each other in a battle to the death... or other objectives based on the game type:\n \nThis time we will be playing Ultra Hardcore, a Minecraft mod that turns off health regeneration. The only way to get back health is with a golden apple or health potions. The recipes for golden apples have also changed to require ingots instead of nuggets. Our two teams will battle to see the last one standing.\n \nMindcrack Reddit Server:\n \nAudicyMC: http://www.youtube.com/user/audicymc\n \nghowden: http://www.youtube.com/user/Eluinhost\n \nFairyjuice: http://www.youtube.com/user/Entropiestromstaerke\n \nsonmica: http://www.youtube.com/user/sonmicaLP\n \nMindcrack Fan Server:\n \nAubron: http://www.youtube.com/user/AubThaMan\n \nArrowheadcobra: http://www.youtube.com/user/ArrowhoodCobra\n \nAtomic2354: http://www.youtube.com/user/atomic2354\n \nUisdead99: http://www.youtube.com/user/uisdead99\n \n \nIntro by: sonmica ( http://www.youtube.com/user/sonmicaLP )\n \nArt by: arrowheadcobra ( http://pitch-black-cobra.deviantart.com/ ) and RedDyeNo5 ( http://reddyeno5.deviantart.com )\n \nIntro Music: \"Phantom\" by Topaz Locket ( http://soundcloud.com/topaz-locket/phantom - used with permission )\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=DuaV5GxNl0c&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/DuaV5GxNl0c/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=DuaV5GxNl0c"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/DuaV5GxNl0c"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/DuaV5GxNl0c/comments",
+                    "countHint": 5
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/DuaV5GxNl0c?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 1246,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r7---sn-cg07luez.c.youtube.com/CigLENy73wIaHwlHl01s5JXmDhMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1246,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r7---sn-cg07luez.c.youtube.com/CigLENy73wIaHwlHl01s5JXmDhMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1246,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Welcome to the first battle of the Server Clash series. This series puts two servers against each other in a battle to the death... or other objectives based on the game type:\n \nThis time we will be playing Ultra Hardcore, a Minecraft mod that turns off health regeneration. The only way to get back health is with a golden apple or health potions. The recipes for golden apples have also changed to require ingots instead of nuggets. Our two teams will battle to see the last one standing.\n \nMindcrack Reddit Server:\n \nAudicyMC: http://www.youtube.com/user/audicymc\n \nghowden: http://www.youtube.com/user/Eluinhost\n \nFairyjuice: http://www.youtube.com/user/Entropiestromstaerke\n \nsonmica: http://www.youtube.com/user/sonmicaLP\n \nMindcrack Fan Server:\n \nAubron: http://www.youtube.com/user/AubThaMan\n \nArrowheadcobra: http://www.youtube.com/user/ArrowhoodCobra\n \nAtomic2354: http://www.youtube.com/user/atomic2354\n \nUisdead99: http://www.youtube.com/user/uisdead99\n \n \nIntro by: sonmica ( http://www.youtube.com/user/sonmicaLP )\n \nArt by: arrowheadcobra ( http://pitch-black-cobra.deviantart.com/ ) and RedDyeNo5 ( http://reddyeno5.deviantart.com )\n \nIntro Music: \"Phantom\" by Topaz Locket ( http://soundcloud.com/topaz-locket/phantom - used with permission )\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=DuaV5GxNl0c&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/DuaV5GxNl0c/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:10:23"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/DuaV5GxNl0c/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:05:11.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/DuaV5GxNl0c/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:10:23"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/DuaV5GxNl0c/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:15:34.500"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Mindcrack Fan Server Clash - UHC - Ep. 3",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "1246"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 5,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "302"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/O71t9tzRFBo"
+            },
+            "published": {
+                "$t": "2013-01-25T21:29:30.000Z"
+            },
+            "updated": {
+                "$t": "2014-07-12T12:54:52.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Mindcrack Fan Server Clash - UHC - Ep. 2",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Welcome to the first battle of the Server Clash series. This series puts two servers against each other in a battle to the death... or other objectives based on the game type:\n \nThis time we will be playing Ultra Hardcore, a Minecraft mod that turns off health regeneration. The only way to get back health is with a golden apple or health potions. The recipes for golden apples have also changed to require ingots instead of nuggets. Our two teams will battle to see the last one standing.\n \nMindcrack Reddit Server:\n \nAudicyMC: http://www.youtube.com/user/audicymc\n \nghowden: http://www.youtube.com/user/Eluinhost\n \nFairyjuice: http://www.youtube.com/user/Entropiestromstaerke\n \nsonmica: http://www.youtube.com/user/sonmicaLP\n \nMindcrack Fan Server:\n \nAubron: http://www.youtube.com/user/AubThaMan\n \nArrowheadcobra: http://www.youtube.com/user/ArrowhoodCobra\n \nAtomic2354: http://www.youtube.com/user/atomic2354\n \nUisdead99: http://www.youtube.com/user/uisdead99\n \n \nIntro by: sonmica ( http://www.youtube.com/user/sonmicaLP )\n \nArt by: arrowheadcobra ( http://pitch-black-cobra.deviantart.com/ ) and RedDyeNo5 ( http://reddyeno5.deviantart.com )\n \nIntro Music: \"Phantom\" by Topaz Locket ( http://soundcloud.com/topaz-locket/phantom - used with permission )\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=O71t9tzRFBo&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/O71t9tzRFBo/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=O71t9tzRFBo"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/O71t9tzRFBo"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/O71t9tzRFBo/comments",
+                    "countHint": 2
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/O71t9tzRFBo?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 1234,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r3---sn-cg07luek.c.youtube.com/CigLENy73wIaHwkaFNHc9m29OxMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1234,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r3---sn-cg07luek.c.youtube.com/CigLENy73wIaHwkaFNHc9m29OxMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1234,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Welcome to the first battle of the Server Clash series. This series puts two servers against each other in a battle to the death... or other objectives based on the game type:\n \nThis time we will be playing Ultra Hardcore, a Minecraft mod that turns off health regeneration. The only way to get back health is with a golden apple or health potions. The recipes for golden apples have also changed to require ingots instead of nuggets. Our two teams will battle to see the last one standing.\n \nMindcrack Reddit Server:\n \nAudicyMC: http://www.youtube.com/user/audicymc\n \nghowden: http://www.youtube.com/user/Eluinhost\n \nFairyjuice: http://www.youtube.com/user/Entropiestromstaerke\n \nsonmica: http://www.youtube.com/user/sonmicaLP\n \nMindcrack Fan Server:\n \nAubron: http://www.youtube.com/user/AubThaMan\n \nArrowheadcobra: http://www.youtube.com/user/ArrowhoodCobra\n \nAtomic2354: http://www.youtube.com/user/atomic2354\n \nUisdead99: http://www.youtube.com/user/uisdead99\n \n \nIntro by: sonmica ( http://www.youtube.com/user/sonmicaLP )\n \nArt by: arrowheadcobra ( http://pitch-black-cobra.deviantart.com/ ) and RedDyeNo5 ( http://reddyeno5.deviantart.com )\n \nIntro Music: \"Phantom\" by Topaz Locket ( http://soundcloud.com/topaz-locket/phantom - used with permission )\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=O71t9tzRFBo&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/O71t9tzRFBo/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:10:17"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/O71t9tzRFBo/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:05:08.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/O71t9tzRFBo/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:10:17"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/O71t9tzRFBo/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:15:25.500"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Mindcrack Fan Server Clash - UHC - Ep. 2",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "1234"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 13,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "452"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/Jn0pIEAABOY"
+            },
+            "published": {
+                "$t": "2013-01-23T20:30:12.000Z"
+            },
+            "updated": {
+                "$t": "2014-09-30T21:10:46.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Mindcrack Fan Server Clash - UHC - Ep. 1",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Welcome to the first battle of the Server Clash series. This series puts two servers against each other in a battle to the death... or other objectives based on the game type:\n \nThis time we will be playing Ultra Hardcore, a Minecraft mod that turns off health regeneration. The only way to get back health is with a golden apple or health potions. The recipes for golden apples have also changed to require ingots instead of nuggets. Our two teams will battle to see the last one standing.\n \nMindcrack Reddit Server:\n \nAudicyMC: http://www.youtube.com/user/audicymc\n \nghowden: http://www.youtube.com/user/Eluinhost\n \nFairyjuice: http://www.youtube.com/user/Entropiestromstaerke\n \nsonmica: http://www.youtube.com/user/sonmicaLP\n \nMindcrack Fan Server:\n \nAubron: http://www.youtube.com/user/AubThaMan\n \nArrowheadcobra: http://www.youtube.com/user/ArrowhoodCobra\n \nAtomic2354: http://www.youtube.com/user/atomic2354\n \nUisdead99: http://www.youtube.com/user/uisdead99\n \n \nIntro by: sonmica ( http://www.youtube.com/user/sonmicaLP )\n \nArt by: arrowheadcobra ( http://pitch-black-cobra.deviantart.com/ ) and RedDyeNo5 ( http://reddyeno5.deviantart.com )\n \nIntro Music: \"Phantom\" by Topaz Locket ( http://soundcloud.com/topaz-locket/phantom - used with permission )\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=Jn0pIEAABOY&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/Jn0pIEAABOY/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=Jn0pIEAABOY"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/Jn0pIEAABOY"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/Jn0pIEAABOY/comments",
+                    "countHint": 9
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/Jn0pIEAABOY?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 1856,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r2---sn-cg07luee.c.youtube.com/CigLENy73wIaHwnmBABAICl9JhMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1856,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r2---sn-cg07luee.c.youtube.com/CigLENy73wIaHwnmBABAICl9JhMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1856,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Welcome to the first battle of the Server Clash series. This series puts two servers against each other in a battle to the death... or other objectives based on the game type:\n \nThis time we will be playing Ultra Hardcore, a Minecraft mod that turns off health regeneration. The only way to get back health is with a golden apple or health potions. The recipes for golden apples have also changed to require ingots instead of nuggets. Our two teams will battle to see the last one standing.\n \nMindcrack Reddit Server:\n \nAudicyMC: http://www.youtube.com/user/audicymc\n \nghowden: http://www.youtube.com/user/Eluinhost\n \nFairyjuice: http://www.youtube.com/user/Entropiestromstaerke\n \nsonmica: http://www.youtube.com/user/sonmicaLP\n \nMindcrack Fan Server:\n \nAubron: http://www.youtube.com/user/AubThaMan\n \nArrowheadcobra: http://www.youtube.com/user/ArrowhoodCobra\n \nAtomic2354: http://www.youtube.com/user/atomic2354\n \nUisdead99: http://www.youtube.com/user/uisdead99\n \n \nIntro by: sonmica ( http://www.youtube.com/user/sonmicaLP )\n \nArt by: arrowheadcobra ( http://pitch-black-cobra.deviantart.com/ ) and RedDyeNo5 ( http://reddyeno5.deviantart.com )\n \nIntro Music: \"Phantom\" by Topaz Locket ( http://soundcloud.com/topaz-locket/phantom - used with permission )\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=Jn0pIEAABOY&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/Jn0pIEAABOY/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:15:28"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/Jn0pIEAABOY/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:07:44"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/Jn0pIEAABOY/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:15:28"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/Jn0pIEAABOY/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:23:12"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Mindcrack Fan Server Clash - UHC - Ep. 1",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "1856"
+                }
+            },
+            "gd$rating": {
+                "average": 4.7460318,
+                "max": 5,
+                "min": 1,
+                "numRaters": 63,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "24264"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/BsCchiDS3xw"
+            },
+            "published": {
+                "$t": "2012-10-28T04:32:20.000Z"
+            },
+            "updated": {
+                "$t": "2013-11-30T00:47:35.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Minecraft PvP - Scrap Mettle",
+                "type": "text"
+            },
+            "content": {
+                "$t": "oc.tc PvP w/ Sonmica and Firefoxvulpix\n\nSonmica - youtube.com/sonmicalp\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=BsCchiDS3xw&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/BsCchiDS3xw/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=BsCchiDS3xw"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/BsCchiDS3xw"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/BsCchiDS3xw/comments",
+                    "countHint": 14
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/BsCchiDS3xw?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 963,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r7---sn-cg07luel.c.youtube.com/CigLENy73wIaHwkc39IghpzABhMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 963,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r7---sn-cg07luel.c.youtube.com/CigLENy73wIaHwkc39IghpzABhMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 963,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "oc.tc PvP w/ Sonmica and Firefoxvulpix\n\nSonmica - youtube.com/sonmicalp\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=BsCchiDS3xw&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/BsCchiDS3xw/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:08:01.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/BsCchiDS3xw/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:04:00.750"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/BsCchiDS3xw/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:08:01.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/BsCchiDS3xw/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:12:02.250"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Minecraft PvP - Scrap Mettle",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "963"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 6,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "182"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/9NYP0XHD3-Y"
+            },
+            "published": {
+                "$t": "2012-09-15T03:43:23.000Z"
+            },
+            "updated": {
+                "$t": "2013-11-23T02:23:37.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Random Draw + Captions",
+                "type": "text"
+            },
+            "content": {
+                "$t": "I do the random draw for the reddit server and announce the winners of the caption competions.\n\nMindcrack Reddit Server - http://www.mcredditserver.com\nMindcrack Subreddit - http://www.reddit.com/r/mindcrack\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=9NYP0XHD3-Y&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/9NYP0XHD3-Y/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=9NYP0XHD3-Y"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/9NYP0XHD3-Y"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/9NYP0XHD3-Y/comments",
+                    "countHint": 2
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/9NYP0XHD3-Y?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 212,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r2---sn-cg07luek.c.youtube.com/CigLENy73wIaHwnm38Nx0Q_W9BMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 212,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r2---sn-cg07luek.c.youtube.com/CigLENy73wIaHwnm38Nx0Q_W9BMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 212,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "I do the random draw for the reddit server and announce the winners of the caption competions.\n\nMindcrack Reddit Server - http://www.mcredditserver.com\nMindcrack Subreddit - http://www.reddit.com/r/mindcrack\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=9NYP0XHD3-Y&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/9NYP0XHD3-Y/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:01:46"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/9NYP0XHD3-Y/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:00:53"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/9NYP0XHD3-Y/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:01:46"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/9NYP0XHD3-Y/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:02:39"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Random Draw + Captions",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "212"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 13,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "246"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/yVQ_eu42Xt4"
+            },
+            "published": {
+                "$t": "2012-08-24T04:38:11.000Z"
+            },
+            "updated": {
+                "$t": "2014-03-18T22:21:55.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "DayZ - Fun with satchel charges",
+                "type": "text"
+            },
+            "content": {
+                "$t": "I come across a tent with lots of satchel charges so I take them and take out some tents/a building\n\nZombiestein84's channel - http://www.youtube.com/user/Zombiestein84\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=yVQ_eu42Xt4&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/yVQ_eu42Xt4/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=yVQ_eu42Xt4"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/yVQ_eu42Xt4"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/yVQ_eu42Xt4/comments",
+                    "countHint": 7
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/yVQ_eu42Xt4?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 568,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r7---sn-cg07lued.c.youtube.com/CigLENy73wIaHwneXjbuej9UyRMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 568,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r7---sn-cg07lued.c.youtube.com/CigLENy73wIaHwneXjbuej9UyRMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 568,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "I come across a tent with lots of satchel charges so I take them and take out some tents/a building\n\nZombiestein84's channel - http://www.youtube.com/user/Zombiestein84\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=yVQ_eu42Xt4&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/yVQ_eu42Xt4/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:04:44"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/yVQ_eu42Xt4/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:02:22"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/yVQ_eu42Xt4/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:04:44"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/yVQ_eu42Xt4/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:07:06"
+                    }
+                ],
+                "media$title": {
+                    "$t": "DayZ - Fun with satchel charges",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "568"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 5,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "384"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/PjFPQC1f9OE"
+            },
+            "published": {
+                "$t": "2012-08-22T00:29:57.000Z"
+            },
+            "updated": {
+                "$t": "2014-09-24T02:20:53.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "UHC with Team Terrible",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Me and Macheath join a random UHC game from IRC. This happens. I never claimed to be good at the game! \n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=PjFPQC1f9OE&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/PjFPQC1f9OE/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=PjFPQC1f9OE"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/PjFPQC1f9OE"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/PjFPQC1f9OE/comments",
+                    "countHint": 13
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/PjFPQC1f9OE?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 1073,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r1---sn-cg07luee.c.youtube.com/CigLENy73wIaHwnh9F8tQE8xPhMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1073,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r1---sn-cg07luee.c.youtube.com/CigLENy73wIaHwnh9F8tQE8xPhMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1073,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Me and Macheath join a random UHC game from IRC. This happens. I never claimed to be good at the game! \n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=PjFPQC1f9OE&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/PjFPQC1f9OE/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:08:56.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/PjFPQC1f9OE/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:04:28.250"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/PjFPQC1f9OE/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:08:56.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/PjFPQC1f9OE/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:13:24.750"
+                    }
+                ],
+                "media$title": {
+                    "$t": "UHC with Team Terrible",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "1073"
+                }
+            },
+            "gd$rating": {
+                "average": 4.7894735,
+                "max": 5,
+                "min": 1,
+                "numRaters": 19,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "971"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/1ZDP1mFMc9I"
+            },
+            "published": {
+                "$t": "2012-08-19T15:40:14.000Z"
+            },
+            "updated": {
+                "$t": "2013-08-24T18:05:14.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Solo Tornado Barbarian Inferno Diablo Fight",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Just some footage from over a month ago I never uploaded. My Act II barbarian fighting the 'almighty' diablo in inferno\n\nMusic used:\nTristam - http://www.youtube.com/watch?v=4Z6ZJQEGVGY\nStreet Fighter 2 and Dragonborn - http://www.youtube.com/user/sbeast64\nChrono Trigger Boss Fight - http://www.youtube.com/user/ToxicxEternity\n\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=1ZDP1mFMc9I&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/1ZDP1mFMc9I/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=1ZDP1mFMc9I"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/1ZDP1mFMc9I"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/1ZDP1mFMc9I/comments",
+                    "countHint": 3
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/1ZDP1mFMc9I?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 734,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r1---sn-cg07lues.c.youtube.com/CigLENy73wIaHwnSc0xh1s-Q1RMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 734,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r1---sn-cg07lues.c.youtube.com/CigLENy73wIaHwnSc0xh1s-Q1RMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 734,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Just some footage from over a month ago I never uploaded. My Act II barbarian fighting the 'almighty' diablo in inferno\n\nMusic used:\nTristam - http://www.youtube.com/watch?v=4Z6ZJQEGVGY\nStreet Fighter 2 and Dragonborn - http://www.youtube.com/user/sbeast64\nChrono Trigger Boss Fight - http://www.youtube.com/user/ToxicxEternity\n\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=1ZDP1mFMc9I&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/1ZDP1mFMc9I/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:06:07"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/1ZDP1mFMc9I/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:03:03.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/1ZDP1mFMc9I/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:06:07"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/1ZDP1mFMc9I/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:09:10.500"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Solo Tornado Barbarian Inferno Diablo Fight",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "734"
+                }
+            },
+            "gd$rating": {
+                "average": 3.6666667,
+                "max": 5,
+                "min": 1,
+                "numRaters": 3,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "90"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/J1dvKY_W6Fo"
+            },
+            "published": {
+                "$t": "2012-08-17T12:25:54.000Z"
+            },
+            "updated": {
+                "$t": "2013-12-27T08:46:28.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Eluinhost Plays Minecraft SMP Ep 9 - Reuploaded Diamonds!",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Had to reupload this as youtube had broken the video for a minute or two whilst I was at the hockey arena. Hopefully it works this time!\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=J1dvKY_W6Fo&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/J1dvKY_W6Fo/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=J1dvKY_W6Fo"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/J1dvKY_W6Fo"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/J1dvKY_W6Fo/comments",
+                    "countHint": 17
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/J1dvKY_W6Fo?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 2343,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r7---sn-cg07luer.c.youtube.com/CigLENy73wIaHwla6NaPKW9XJxMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 2343,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r7---sn-cg07luer.c.youtube.com/CigLENy73wIaHwla6NaPKW9XJxMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 2343,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Had to reupload this as youtube had broken the video for a minute or two whilst I was at the hockey arena. Hopefully it works this time!\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=J1dvKY_W6Fo&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/J1dvKY_W6Fo/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:19:31.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/J1dvKY_W6Fo/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:09:45.750"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/J1dvKY_W6Fo/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:19:31.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/J1dvKY_W6Fo/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:29:17.250"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Eluinhost Plays Minecraft SMP Ep 9 - Reuploaded Diamonds!",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "2343"
+                }
+            },
+            "gd$rating": {
+                "average": 4.714286,
+                "max": 5,
+                "min": 1,
+                "numRaters": 14,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "243"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/y-hWuzVyiGQ"
+            },
+            "published": {
+                "$t": "2012-08-12T13:25:29.000Z"
+            },
+            "updated": {
+                "$t": "2013-12-01T02:44:21.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Top Ramen Ep 3 - Fix your game jeotch!",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Map download - http://www.minecraftforum.net/topic/913366-adv-top-ramen-the-quest-for-opulence-14-6000-downloads\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=y-hWuzVyiGQ&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/y-hWuzVyiGQ/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=y-hWuzVyiGQ"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/y-hWuzVyiGQ"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/y-hWuzVyiGQ/comments",
+                    "countHint": 4
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/y-hWuzVyiGQ?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 1110,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r5---sn-cg07luee.c.youtube.com/CigLENy73wIaHwlkiHI1u1boyxMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1110,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r5---sn-cg07luee.c.youtube.com/CigLENy73wIaHwlkiHI1u1boyxMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1110,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Map download - http://www.minecraftforum.net/topic/913366-adv-top-ramen-the-quest-for-opulence-14-6000-downloads\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=y-hWuzVyiGQ&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/y-hWuzVyiGQ/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:09:15"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/y-hWuzVyiGQ/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:04:37.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/y-hWuzVyiGQ/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:09:15"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/y-hWuzVyiGQ/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:13:52.500"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Top Ramen Ep 3 - Fix your game jeotch!",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "1110"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 4,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "57"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/11xuGqH9xUA"
+            },
+            "published": {
+                "$t": "2012-08-02T14:00:21.000Z"
+            },
+            "updated": {
+                "$t": "2013-12-02T16:22:35.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Path of Exile Beta - First Thoughts Pt 2",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Not too sure if I will record more of this, will see!\n\nwww.pathofexile.com\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=11xuGqH9xUA&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/11xuGqH9xUA/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=11xuGqH9xUA"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/11xuGqH9xUA"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/11xuGqH9xUA/comments",
+                    "countHint": 0
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/11xuGqH9xUA?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 1510,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r3---sn-cg07lues.c.youtube.com/CigLENy73wIaHwlAxf2hGm5c1xMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1510,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r3---sn-cg07lues.c.youtube.com/CigLENy73wIaHwlAxf2hGm5c1xMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1510,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Not too sure if I will record more of this, will see!\n\nwww.pathofexile.com\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=11xuGqH9xUA&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/11xuGqH9xUA/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:12:35"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/11xuGqH9xUA/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:06:17.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/11xuGqH9xUA/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:12:35"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/11xuGqH9xUA/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:18:52.500"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Path of Exile Beta - First Thoughts Pt 2",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "1510"
+                }
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "46"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/F-I6EMxFvow"
+            },
+            "published": {
+                "$t": "2012-08-01T11:00:10.000Z"
+            },
+            "updated": {
+                "$t": "2013-08-24T18:05:14.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Path of Exile Beta - First thoughts",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Check out Path of Exile at www.pathofexile.com\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=F-I6EMxFvow&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/F-I6EMxFvow/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=F-I6EMxFvow"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/F-I6EMxFvow"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/F-I6EMxFvow/comments",
+                    "countHint": 5
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/F-I6EMxFvow?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 1311,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r2---sn-cg07luez.c.youtube.com/CigLENy73wIaHwmMvkXMEDriFxMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1311,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r2---sn-cg07luez.c.youtube.com/CigLENy73wIaHwmMvkXMEDriFxMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1311,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Check out Path of Exile at www.pathofexile.com\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=F-I6EMxFvow&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/F-I6EMxFvow/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:10:55.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/F-I6EMxFvow/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:05:27.750"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/F-I6EMxFvow/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:10:55.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/F-I6EMxFvow/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:16:23.250"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Path of Exile Beta - First thoughts",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "1311"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 4,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "68"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/Km263MIIBpI"
+            },
+            "published": {
+                "$t": "2012-07-28T19:30:50.000Z"
+            },
+            "updated": {
+                "$t": "2013-08-24T18:05:14.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Competition Reminder",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Music by Grapes - I dunno",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=Km263MIIBpI&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/Km263MIIBpI/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=Km263MIIBpI"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/Km263MIIBpI"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/Km263MIIBpI?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 31,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r3---sn-cg07luer.c.youtube.com/CigLENy73wIaHwmSBgjC3LptKhMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 31,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r3---sn-cg07luer.c.youtube.com/CigLENy73wIaHwmSBgjC3LptKhMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 31,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Music by Grapes - I dunno",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=Km263MIIBpI&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/Km263MIIBpI/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:00:15.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/Km263MIIBpI/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:00:07.750"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/Km263MIIBpI/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:00:15.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/Km263MIIBpI/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:00:23.250"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Competition Reminder",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "31"
+                }
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "239"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/els8_NOvJl4"
+            },
+            "published": {
+                "$t": "2012-07-27T11:03:52.000Z"
+            },
+            "updated": {
+                "$t": "2013-12-04T03:53:24.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Eluinhost plays Top Ramen - Ep 2",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Map can be downloaded at http://www.minecraftforum.net/topic/913366-adv-top-ramen-the-quest-for-opulence-14-6000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=els8_NOvJl4&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/els8_NOvJl4/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=els8_NOvJl4"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/els8_NOvJl4"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/els8_NOvJl4/comments",
+                    "countHint": 0
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/els8_NOvJl4?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 902,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r4---sn-cg07luer.c.youtube.com/CigLENy73wIaHwleJq_T_DxbehMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 902,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r4---sn-cg07luer.c.youtube.com/CigLENy73wIaHwleJq_T_DxbehMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 902,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Map can be downloaded at http://www.minecraftforum.net/topic/913366-adv-top-ramen-the-quest-for-opulence-14-6000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=els8_NOvJl4&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/els8_NOvJl4/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:07:31"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/els8_NOvJl4/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:03:45.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/els8_NOvJl4/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:07:31"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/els8_NOvJl4/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:11:16.500"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Eluinhost plays Top Ramen - Ep 2",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "902"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 2,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "35"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/mVIv2iTwbfE"
+            },
+            "published": {
+                "$t": "2012-07-26T18:31:26.000Z"
+            },
+            "updated": {
+                "$t": "2014-03-03T10:51:43.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Minecraft 1.3 in a nutshell",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Music: Grapes - I dunno",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=mVIv2iTwbfE&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/mVIv2iTwbfE/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=mVIv2iTwbfE"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/mVIv2iTwbfE"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/mVIv2iTwbfE/comments",
+                    "countHint": 10
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/mVIv2iTwbfE?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 30,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r8---sn-cg07luez.c.youtube.com/CigLENy73wIaHwnxbfAk2i9SmRMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 30,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r8---sn-cg07luez.c.youtube.com/CigLENy73wIaHwnxbfAk2i9SmRMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 30,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Music: Grapes - I dunno",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=mVIv2iTwbfE&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/mVIv2iTwbfE/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:00:15"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/mVIv2iTwbfE/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:00:07.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/mVIv2iTwbfE/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:00:15"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/mVIv2iTwbfE/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:00:22.500"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Minecraft 1.3 in a nutshell",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "30"
+                }
+            },
+            "gd$rating": {
+                "average": 4.5675673,
+                "max": 5,
+                "min": 1,
+                "numRaters": 37,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "537"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/aOZkzY3atbs"
+            },
+            "published": {
+                "$t": "2012-07-26T02:42:27.000Z"
+            },
+            "updated": {
+                "$t": "2013-12-04T07:16:38.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Eluinhost plays Top Ramen - Ep 1",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Map can be downloaded at http://www.minecraftforum.net/topic/913366-adv-top-ramen-the-quest-for-opulence-14-6000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=aOZkzY3atbs&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/aOZkzY3atbs/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=aOZkzY3atbs"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/aOZkzY3atbs"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/aOZkzY3atbs/comments",
+                    "countHint": 6
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/aOZkzY3atbs?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 931,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r2---sn-cg07lues.c.youtube.com/CigLENy73wIaHwm7tdqNzWTmaBMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 931,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r2---sn-cg07lues.c.youtube.com/CigLENy73wIaHwm7tdqNzWTmaBMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 931,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Map can be downloaded at http://www.minecraftforum.net/topic/913366-adv-top-ramen-the-quest-for-opulence-14-6000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=aOZkzY3atbs&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/aOZkzY3atbs/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:07:45.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/aOZkzY3atbs/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:03:52.750"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/aOZkzY3atbs/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:07:45.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/aOZkzY3atbs/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:11:38.250"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Eluinhost plays Top Ramen - Ep 1",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "931"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 11,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "93"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/ljLZa0rtT1k"
+            },
+            "published": {
+                "$t": "2012-07-25T18:04:39.000Z"
+            },
+            "updated": {
+                "$t": "2014-03-03T00:19:09.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "VintageBeef Fan Server Competition IP/Date",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Outro music by soundcloud.com/rgbeatsuk\n\n\n\nServer IP: mcredditserver.com:25575\nTime: Saturday 28th July 4pm EDT",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=ljLZa0rtT1k&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/ljLZa0rtT1k/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=ljLZa0rtT1k"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/ljLZa0rtT1k"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/ljLZa0rtT1k/comments",
+                    "countHint": 141
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/ljLZa0rtT1k?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 70,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r4---sn-cg07luer.c.youtube.com/CigLENy73wIaHwlZT-1Ka9kylhMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 70,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r4---sn-cg07luer.c.youtube.com/CigLENy73wIaHwlZT-1Ka9kylhMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 70,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Outro music by soundcloud.com/rgbeatsuk\n\n\n\nServer IP: mcredditserver.com:25575\nTime: Saturday 28th July 4pm EDT",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=ljLZa0rtT1k&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/ljLZa0rtT1k/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:00:35"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/ljLZa0rtT1k/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:00:17.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/ljLZa0rtT1k/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:00:35"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/ljLZa0rtT1k/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:00:52.500"
+                    }
+                ],
+                "media$title": {
+                    "$t": "VintageBeef Fan Server Competition IP/Date",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "70"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 31,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "3928"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/QA6UdWR8Uwo"
+            },
+            "published": {
+                "$t": "2012-07-23T14:33:24.000Z"
+            },
+            "updated": {
+                "$t": "2014-01-13T00:49:49.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Deja Vu: The Reincarnation of Steve Ep 5",
+                "type": "text"
+            },
+            "content": {
+                "$t": "Sorry for no ingame audio here, dxtory goofed up between my test recording and the actual recording. Here's the rest as the footage in one go, enjoy!\n\nThe map can be downloaded here: \nhttp://www.minecraftforum.net/topic/987941-rpgadv-deja-vu-the-reincarnation-of-steve-30000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=QA6UdWR8Uwo&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/QA6UdWR8Uwo/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=QA6UdWR8Uwo"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/QA6UdWR8Uwo"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/QA6UdWR8Uwo/comments",
+                    "countHint": 2
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/QA6UdWR8Uwo?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 1639,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r8---sn-cg07luek.c.youtube.com/CigLENy73wIaHwkKU3xkdZQOQBMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1639,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r8---sn-cg07luek.c.youtube.com/CigLENy73wIaHwkKU3xkdZQOQBMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1639,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "Sorry for no ingame audio here, dxtory goofed up between my test recording and the actual recording. Here's the rest as the footage in one go, enjoy!\n\nThe map can be downloaded here: \nhttp://www.minecraftforum.net/topic/987941-rpgadv-deja-vu-the-reincarnation-of-steve-30000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=QA6UdWR8Uwo&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/QA6UdWR8Uwo/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:13:39.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/QA6UdWR8Uwo/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:06:49.750"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/QA6UdWR8Uwo/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:13:39.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/QA6UdWR8Uwo/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:20:29.250"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Deja Vu: The Reincarnation of Steve Ep 5",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "1639"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 9,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "97"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/yOmKq4nvypw"
+            },
+            "published": {
+                "$t": "2012-07-22T02:16:06.000Z"
+            },
+            "updated": {
+                "$t": "2013-12-05T17:38:26.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Deja Vu: The Reincarnation of Steve Ep 4",
+                "type": "text"
+            },
+            "content": {
+                "$t": "The map can be downloaded here: \nhttp://www.minecraftforum.net/topic/987941-rpgadv-deja-vu-the-reincarnation-of-steve-30000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=yOmKq4nvypw&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/yOmKq4nvypw/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=yOmKq4nvypw"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/yOmKq4nvypw"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/yOmKq4nvypw/comments",
+                    "countHint": 7
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/yOmKq4nvypw?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 1014,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r5---sn-cg07luez.c.youtube.com/CigLENy73wIaHwmcyu-Jq4rpyBMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1014,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r5---sn-cg07luez.c.youtube.com/CigLENy73wIaHwmcyu-Jq4rpyBMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 1014,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "The map can be downloaded here: \nhttp://www.minecraftforum.net/topic/987941-rpgadv-deja-vu-the-reincarnation-of-steve-30000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=yOmKq4nvypw&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/yOmKq4nvypw/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:08:27"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/yOmKq4nvypw/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:04:13.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/yOmKq4nvypw/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:08:27"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/yOmKq4nvypw/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:12:40.500"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Deja Vu: The Reincarnation of Steve Ep 4",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "1014"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 8,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "66"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/55kYYyMJ4B0"
+            },
+            "published": {
+                "$t": "2012-07-21T06:47:37.000Z"
+            },
+            "updated": {
+                "$t": "2013-12-05T17:03:01.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Deja Vu: The Reincarnation of Steve Ep 3",
+                "type": "text"
+            },
+            "content": {
+                "$t": "The map can be downloaded here: \nhttp://www.minecraftforum.net/topic/987941-rpgadv-deja-vu-the-reincarnation-of-steve-30000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=55kYYyMJ4B0&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/55kYYyMJ4B0/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=55kYYyMJ4B0"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/55kYYyMJ4B0"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/55kYYyMJ4B0/comments",
+                    "countHint": 1
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/55kYYyMJ4B0?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 922,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r1---sn-cg07luee.c.youtube.com/CigLENy73wIaHwkd4AkjYxiZ5xMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 922,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r1---sn-cg07luee.c.youtube.com/CigLENy73wIaHwkd4AkjYxiZ5xMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 922,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "The map can be downloaded here: \nhttp://www.minecraftforum.net/topic/987941-rpgadv-deja-vu-the-reincarnation-of-steve-30000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=55kYYyMJ4B0&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/55kYYyMJ4B0/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:07:41"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/55kYYyMJ4B0/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:03:50.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/55kYYyMJ4B0/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:07:41"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/55kYYyMJ4B0/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:11:31.500"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Deja Vu: The Reincarnation of Steve Ep 3",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "922"
+                }
+            },
+            "gd$rating": {
+                "average": 3.857143,
+                "max": 5,
+                "min": 1,
+                "numRaters": 7,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "110"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/bLPPtvb-fK8"
+            },
+            "published": {
+                "$t": "2012-07-20T19:34:59.000Z"
+            },
+            "updated": {
+                "$t": "2014-03-06T11:42:37.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "VintageBeef Fan Server Competition Information",
+                "type": "text"
+            },
+            "content": {
+                "$t": "The fine details like IP/Date/Time will be announced on the channel in the very near future.\n\nStage 1 Map - Beef Server\nStage 2 Map - The Walls - http://www.planetminecraft.com/project/the-walls---pvp-survival/\nStage 3 Map - Wave Heroes - http://www.planetminecraft.com/project/wave-heroes/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=bLPPtvb-fK8&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/bLPPtvb-fK8/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=bLPPtvb-fK8"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/bLPPtvb-fK8"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/bLPPtvb-fK8/comments",
+                    "countHint": 111
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/bLPPtvb-fK8?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 395,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r5---sn-cg07luer.c.youtube.com/CigLENy73wIaHwmvfP72ts-zbBMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 395,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r5---sn-cg07luer.c.youtube.com/CigLENy73wIaHwmvfP72ts-zbBMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 395,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "The fine details like IP/Date/Time will be announced on the channel in the very near future.\n\nStage 1 Map - Beef Server\nStage 2 Map - The Walls - http://www.planetminecraft.com/project/the-walls---pvp-survival/\nStage 3 Map - Wave Heroes - http://www.planetminecraft.com/project/wave-heroes/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=bLPPtvb-fK8&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/bLPPtvb-fK8/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:03:17.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/bLPPtvb-fK8/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:01:38.750"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/bLPPtvb-fK8/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:03:17.500"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/bLPPtvb-fK8/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:04:56.250"
+                    }
+                ],
+                "media$title": {
+                    "$t": "VintageBeef Fan Server Competition Information",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "395"
+                }
+            },
+            "gd$rating": {
+                "average": 4.8125,
+                "max": 5,
+                "min": 1,
+                "numRaters": 64,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "3079"
+            }
+        },
+        {
+            "id": {
+                "$t": "http://gdata.youtube.com/feeds/api/videos/du5uEmg5v1o"
+            },
+            "published": {
+                "$t": "2012-07-20T01:40:18.000Z"
+            },
+            "updated": {
+                "$t": "2013-12-05T13:45:52.000Z"
+            },
+            "category": [
+                {
+                    "scheme": "http://schemas.google.com/g/2005#kind",
+                    "term": "http://gdata.youtube.com/schemas/2007#video"
+                },
+                {
+                    "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat",
+                    "term": "Games",
+                    "label": "Gaming"
+                }
+            ],
+            "title": {
+                "$t": "Deja Vu: The Reincarnation of Steve Ep 2",
+                "type": "text"
+            },
+            "content": {
+                "$t": "The map can be downloaded here: \nhttp://www.minecraftforum.net/topic/987941-rpgadv-deja-vu-the-reincarnation-of-steve-30000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                "type": "text"
+            },
+            "link": [
+                {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://www.youtube.com/watch?v=du5uEmg5v1o&feature=youtube_gdata"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#video.related",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/du5uEmg5v1o/related"
+                },
+                {
+                    "rel": "http://gdata.youtube.com/schemas/2007#mobile",
+                    "type": "text/html",
+                    "href": "https://m.youtube.com/details?v=du5uEmg5v1o"
+                },
+                {
+                    "rel": "self",
+                    "type": "application/atom+xml",
+                    "href": "https://gdata.youtube.com/feeds/api/users/Eluinhost/uploads/du5uEmg5v1o"
+                }
+            ],
+            "author": [
+                {
+                    "name": {
+                        "$t": "Eluinhost"
+                    },
+                    "uri": {
+                        "$t": "https://gdata.youtube.com/feeds/api/users/Eluinhost"
+                    }
+                }
+            ],
+            "gd$comments": {
+                "gd$feedLink": {
+                    "rel": "http://gdata.youtube.com/schemas/2007#comments",
+                    "href": "https://gdata.youtube.com/feeds/api/videos/du5uEmg5v1o/comments",
+                    "countHint": 3
+                }
+            },
+            "yt$hd": {},
+            "media$group": {
+                "media$category": [
+                    {
+                        "$t": "Games",
+                        "label": "Gaming",
+                        "scheme": "http://gdata.youtube.com/schemas/2007/categories.cat"
+                    }
+                ],
+                "media$content": [
+                    {
+                        "url": "https://www.youtube.com/v/du5uEmg5v1o?version=3&f=user_uploads&app=youtube_gdata",
+                        "type": "application/x-shockwave-flash",
+                        "medium": "video",
+                        "isDefault": "true",
+                        "expression": "full",
+                        "duration": 904,
+                        "yt$format": 5
+                    },
+                    {
+                        "url": "rtsp://r7---sn-cg07lues.c.youtube.com/CigLENy73wIaHwlavzloEm7udhMYDSANFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 904,
+                        "yt$format": 1
+                    },
+                    {
+                        "url": "rtsp://r7---sn-cg07lues.c.youtube.com/CigLENy73wIaHwlavzloEm7udhMYESARFEgGUgx1c2VyX3VwbG9hZHMM/0/0/0/video.3gp",
+                        "type": "video/3gpp",
+                        "medium": "video",
+                        "expression": "full",
+                        "duration": 904,
+                        "yt$format": 6
+                    }
+                ],
+                "media$description": {
+                    "$t": "The map can be downloaded here: \nhttp://www.minecraftforum.net/topic/987941-rpgadv-deja-vu-the-reincarnation-of-steve-30000-downloads/\n\nOutro music by soundcloud.com/rgbeatsuk",
+                    "type": "plain"
+                },
+                "media$keywords": {},
+                "media$player": [
+                    {
+                        "url": "https://www.youtube.com/watch?v=du5uEmg5v1o&feature=youtube_gdata_player"
+                    }
+                ],
+                "media$thumbnail": [
+                    {
+                        "url": "https://i.ytimg.com/vi/du5uEmg5v1o/0.jpg",
+                        "height": 360,
+                        "width": 480,
+                        "time": "00:07:32"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/du5uEmg5v1o/1.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:03:46"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/du5uEmg5v1o/2.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:07:32"
+                    },
+                    {
+                        "url": "https://i.ytimg.com/vi/du5uEmg5v1o/3.jpg",
+                        "height": 90,
+                        "width": 120,
+                        "time": "00:11:18"
+                    }
+                ],
+                "media$title": {
+                    "$t": "Deja Vu: The Reincarnation of Steve Ep 2",
+                    "type": "plain"
+                },
+                "yt$duration": {
+                    "seconds": "904"
+                }
+            },
+            "gd$rating": {
+                "average": 5.0,
+                "max": 5,
+                "min": 1,
+                "numRaters": 6,
+                "rel": "http://schemas.google.com/g/2005#overall"
+            },
+            "yt$statistics": {
+                "favoriteCount": "0",
+                "viewCount": "51"
+            }
+        }
+    ]
+}}
