@@ -31,5 +31,8 @@
     "grunt-release": "~0.6.0",
     "load-grunt-tasks": "*",
     "grunt-contrib-watch": "~0.5.3"
+  },
+  "dependencies": {
+    "q": "^1.0.1"
   }
 }
