@@ -53,8 +53,7 @@ module.exports = function(robot) {
 
     robot.respond(/yf add (.*?)$/i, function(msg) {
         var name = msg.match[1];
-        console.log(msg.room);
-        if(notificationList.addNotificationsFor(name, msg.room)) {
+        if(notificationList.addNotificationsFor(name, msg.message.room)) {
             msg.reply('Added notifications for: ' + name);
         } else {
             msg.reply(name + ' is already set for notifications in this channel');
@@ -63,7 +62,7 @@ module.exports = function(robot) {
 
     robot.respond(/yf remove (.*?)$/i, function(msg) {
         var name = msg.match[1];
-        if(notificationList.removeNotificationsFor(name, msg.room)) {
+        if(notificationList.removeNotificationsFor(name, msg.message.room)) {
             msg.reply('Removed notifications for: ' + name);
         } else {
             msg.reply(name + ' is not set for notifications in this channel');
