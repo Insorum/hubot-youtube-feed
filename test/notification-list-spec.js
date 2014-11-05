@@ -105,7 +105,7 @@
                 set: sinon.spy()
             };
             customBrain.get.returns(null);
-            list = require('../src/lib/notification-list')(customBrain);
+            list = new NotificationList(customBrain);
 
             expect(customBrain.get).to.have.been.calledOnce
             expect(customBrain.set).to.have.been.calledWithExactly('youtubeFeed.notifyFor', []);
