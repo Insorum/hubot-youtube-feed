@@ -5,6 +5,7 @@
     var expect = chai.expect;
     var nock = require('nock');
     var Robot = require('hubot').Robot;
+    var VideoFetcher = require('../src/lib/video-fetcher');
 
     describe('video-fetcher', function() {
 
@@ -12,7 +13,7 @@
 
         beforeEach(function() {
             var robot = new Robot(null, 'mock-adapter', false, 'Test');
-            fetcher = require('../src/lib/video-fetcher')(robot);
+            fetcher = new VideoFetcher(robot);
         });
 
         it('should return array of valid videos for a good username', function(done) {
