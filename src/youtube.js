@@ -15,11 +15,12 @@
 // Author:
 //   Eluinhost
 
+var VideoFetcher = require('./lib/video-fetcher.js');
+var NotificationList = require('./lib/notification-list.js');
+
 module.exports = function(robot) {
 
-    var notificationList = require('./lib/notification-list.js')(robot.brain);
-    var videoFetcher = require('./lib/video-fetcher.js')(robot);
-
+    var notificationList = new NotificationList(robot.brain, new VideoFetcher());
 
     robot.respond(/yf add (.*?)$/i, function(msg) {
         var name = msg.match[1];
