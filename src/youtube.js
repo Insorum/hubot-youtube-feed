@@ -22,6 +22,34 @@ module.exports = function(robot) {
 
     var notificationList = new NotificationList(robot.brain, new VideoFetcher());
 
+    var checkForUpdates = function() {
+        notificationList.getNewNotifications().then(function(data) {
+            data.forEach(
+                /**
+                 * @param {Object} element
+                 * @param {string} element.username
+                 * @param {string} element.channels
+                 * @param {{id: string, link: string}[]} element.videos
+                 */
+                function success(element) {
+                    element.videos.forEach(
+                        /**
+                         * @param {Object} video
+                         * @param {string} video.id
+                         * @param {string} video.link
+                         */
+                        function(video) {
+                            element.channels.forEach(function(channel) {
+                                robot.messageRoom(channel, element.username + ' has uploaded a video: ' + video.link);
+                            });
+                        }
+                    );
+                }
+            );
+        })
+    };
+    setInterval(checkForUpdates, 1024 * 60 * 5);
+
     robot.respond(/yf add (.*?)$/i, function(msg) {
         var name = msg.match[1];
         if(notificationList.addNotificationsFor(name, msg.room)) {

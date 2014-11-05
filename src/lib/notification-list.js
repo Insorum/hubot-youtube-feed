@@ -1,4 +1,5 @@
 var listKey = 'youtubeFeed.notifyFor';
+var q = require('q');
 
 /**
  * @param brain - the brain to store the list in
@@ -135,6 +136,35 @@ NotificationList.prototype = {
             return false;
         });
         return channels;
+    },
+    /**
+     * @returns {Q.promise} resolves to [{username: string, channels: string[], videos: {id: string, link: string}}]
+     */
+    getNewNotifications: function() {
+        var promises = [];
+        var notifications = [];
+        var self = this;
+        this.notifications.forEach(function(element) {
+
+            var promise = self.latestVideos.getLatestVideos(element.username);
+            promise.then(
+                function(data) {
+                    //skip if for some reason it is a first check
+                    if(data.newUser) return;
+
+                    notifications.push({
+                        username: element.username,
+                        channels: element.channels,
+                        videos: data.videos
+                    });
+                }
+            );
+
+            // add promise to the list of promises to wait for
+            promises.push(promise);
+        });
+
+        return q.allSettled(promises).promise;
     }
 };
 
