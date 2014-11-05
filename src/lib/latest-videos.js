@@ -38,6 +38,7 @@ LatestVideos.prototype = {
         this.latestVideos = this.latestVideos.filter(function(element) {
             return element.name !== username;
         });
+        this.saveVideos();
     },
     /**
      * Checks for the latest vidoes for the given username and stores it internally. Returns the new videos since the last check
