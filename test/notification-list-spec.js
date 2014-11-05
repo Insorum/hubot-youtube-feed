@@ -3,19 +3,21 @@
     var sinon = require('sinon');
     chai.use(require('sinon-chai'));
     var expect = chai.expect;
+    var NotificationList = require('../src/lib/notification-list');
 
     describe('notification-list', function() {
 
         var list;
-        var initialObject = {username: 'init-username', channel: '#init-channel'};
+        var initialObject;
 
         beforeEach(function() {
             this.brain = {
                 get: sinon.stub(),
                 set: sinon.spy()
             };
+            initialObject = {username: 'init-username', channels: ['#init-channel']};
             this.brain.get.returns([initialObject]);
-            list = require('../src/lib/notification-list')(this.brain);
+            list = new NotificationList(this.brain);
         });
 
         it('gets the initial information from the brain', function() {
@@ -27,7 +29,7 @@
         it('saves when adding a single notification', function() {
             var passed = list.addNotificationsFor('test-username', '#testchannel');
 
-            var expectedObject = {username: 'test-username', channel: '#testchannel'};
+            var expectedObject = {username: 'test-username', channels: ['#testchannel']};
             expect(passed).to.be.ok;
             expect(list.notifications).to.have.length(2);
             expect(list.notifications[0]).to.deep.equal(initialObject);
@@ -39,20 +41,28 @@
             //duplicated
             var passed = list.addNotificationsFor('init-username', '#init-channel');
             expect(passed).to.not.be.ok;
-            expect(list.notifications).to.have.length(1);
+            expect(list.notifications).to.be.deep.equal([initialObject]);
             expect(this.brain.set).to.have.not.been.called;
 
             //change channel
             passed = list.addNotificationsFor('init-username', '#init-channel-changed');
+            var expected = [{
+                username: 'init-username',
+                channels: ['#init-channel', '#init-channel-changed']
+            }];
             expect(passed).to.be.ok;
-            expect(list.notifications).to.have.length(2);
+            expect(list.notifications).to.be.deep.equal(expected);
             expect(this.brain.set).to.have.been.calledOnce;
 
             //change username
             this.brain.set.reset();
             passed = list.addNotificationsFor('init-username-changed', '#init-channel');
+            expected.push({
+                username: 'init-username-changed',
+                channels: ['#init-channel']
+            });
             expect(passed).to.be.ok;
-            expect(list.notifications).to.have.length(3);
+            expect(list.notifications).to.be.deep.equal(expected);
             expect(this.brain.set).to.have.been.calledOnce;
         });
 

@@ -1,25 +1,26 @@
+var listKey = 'youtubeFeed.notifyFor';
+
 /**
  * @param brain - the brain to store the list in
  * @constructor
  */
-var listKey = 'youtubeFeed.notifyFor';
-
-module.exports = function NotificationList(brain) {
-    var notifications = brain.get(listKey);
-
-    /**
-     * Saves the notifications to the brain
-     */
-    var saveNotifications = function() {
-        brain.set(listKey, notifications);
+function NotificationList(brain) {
+    this.brain = brain;
+    this.saveNotifications = function () {
+        this.brain.set(listKey, this.notifications);
     };
 
-    // make sure the data is set if we didn't already have any
-    if(notifications === null) {
-        notifications = [];
-        saveNotifications();
-    }
+    /** @type {{username: string, channels: string[]}[]} notifications */
+    this.notifications = brain.get(listKey);
 
+    // make sure the data is set if we didn't already have any
+    if (this.notifications === null) {
+        this.notifications = [];
+        this.saveNotifications();
+    }
+}
+
+NotificationList.prototype = {
     /**
      * Adds the given username to the list of names for notifications
      *
@@ -27,17 +28,29 @@ module.exports = function NotificationList(brain) {
      * @param {string} channel - The channel to send the notification to
      * @returns {boolean} true if added, false if already in the list
      */
-    var addNotificationsFor = function(username, channel) {
-        if(isNotifyingFor(username, channel)) {
+    addNotificationsFor: function (username, channel) {
+        var userChannels = this.getUserNotifications(username);
+
+        // if the user doesn't already have an entry add one
+        if (userChannels === null) {
+            userChannels = [];
+
+            this.notifications.push({
+                username: username,
+                channels: userChannels
+            });
+        }
+
+        // dont allow duplicate channel names
+        if (userChannels.indexOf(channel) !== -1) {
             return false;
         }
-        notifications.push({
-            username: username,
-            channel: channel
-        });
-        saveNotifications();
+
+        // add the channel to the user and save data
+        userChannels.push(channel);
+        this.saveNotifications();
         return true;
-    };
+    },
 
     /**
      * Removes the given username from the list of names for notifications
@@ -46,35 +59,41 @@ module.exports = function NotificationList(brain) {
      * @param {string} channel - The channel to send notifications to
      * @returns {boolean} true if removed, false if didn't exist
      */
-    var removeNotificationsFor = function(username, channel) {
-        var index = findIndexOf(username, channel);
-        if(index < 0) {
+    removeNotificationsFor: function (username, channel) {
+        var userChannels = this.getUserNotifications(username);
+
+        // dont remove if they dont exist
+        if (userChannels === null) {
             return false;
         }
-        notifications.splice(index, 1);
-        saveNotifications();
-        return true;
-    };
 
-    /**
-     * Finds the index of the given notification
-     *
-     * @param {string} username - The account name to check for
-     * @param {string} channel - The channel to send notifcations to
-     * @returns {number} index of the notification or -1 if not found
-     */
-    var findIndexOf = function(username, channel) {
-        var foundIndex = -1;
-        notifications.some(function(element, index) {
-            if(element.username === username && element.channel === channel) {
-                foundIndex = index;
-                return true;
-            }
+        var index = userChannels.indexOf(channel);
+
+        // dont remove if the channel doesnt exist
+        if (index < 0) {
             return false;
-        });
-        return foundIndex;
-    };
+        }
 
+        // remove the channel
+        userChannels.splice(index, 1);
+
+        //if no channels left remove the entire user
+        if (userChannels.length === 0) {
+            var userIndex = -1;
+            this.notifications.some(function (element, index) {
+                if (element.username === username) {
+                    userIndex = index;
+                    return true;
+                }
+                return false;
+            });
+            this.notifications.splice(userIndex, 1);
+        }
+
+        // save the new data
+        this.saveNotifications();
+        return true;
+    },
     /**
      * Is the username setup for notifications?
      *
@@ -82,15 +101,35 @@ module.exports = function NotificationList(brain) {
      * @param {string} channel - The channel to notify in
      * @returns {boolean} true if in list, false otherwise
      */
-    var isNotifyingFor = function(username, channel) {
-        return findIndexOf(username, channel) > -1;
-    };
+    isNotifyingFor: function (username, channel) {
+        var list = this.getUserNotifications(username);
+        // if we are not tracking the user there is no notifications
+        if (list === null) {
+            return false;
+        }
 
-    return {
-        addNotificationsFor: addNotificationsFor,
-        removeNotificationsFor: removeNotificationsFor,
-        isNotifyingFor: isNotifyingFor,
-        notifications: notifications
+        // return if the channel is in the users list
+        return list.indexOf(channel) >= 0;
+    },
+    /**
+     * Returns a list of channels the user is notifying for or null if not found
+     *
+     * @param {string} username
+     * @returns {string[]|null}
+     */
+    getUserNotifications: function (username) {
+        var channels = null;
+        // get the user's object
+        this.notifications.some(function (element) {
+            if (element.username === username) {
+                channels = element.channels;
+                return true;
+            }
+            return false;
+        });
+        return channels;
     }
 };
 
+
+module.exports = NotificationList;
