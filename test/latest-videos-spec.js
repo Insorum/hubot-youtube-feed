@@ -4,29 +4,29 @@
     chai.use(require('sinon-chai'));
     var expect = chai.expect;
     var q = require('q');
+    var LatestVideos = require('../src/lib/latest-videos');
 
     describe('latest-videos', function () {
 
-        var latest;
-
-        //this is the parsed version of Eluinhost.json as it would be stored in the brain
-        var parsedData = require('./data/parsed.json');
-
-        //version of the data with 2 missing elements
-        var withMissing = parsedData.slice(0, -2);
-        var missingData = parsedData.slice(-2);
-
-        var initialData = [
-            {
-                name: 'Eluinhost',
-                videos: withMissing // leave a couple off for the diff to work
-            }
-        ];
+        var latest, parsedData, withMissing, missingData, initialData;
 
         var fetcher = {};
         var brain = {};
 
         beforeEach(function () {
+            parsedData = require('./data/parsed.json');
+
+            //version of the data with 2 missing elements
+            withMissing = parsedData.slice(0, -2);
+            missingData = parsedData.slice(-2);
+
+            initialData = [
+                {
+                    name: 'Eluinhost',
+                    videos: withMissing // leave a couple off for the diff to work
+                }
+            ];
+
             brain.get = sinon.stub();
             brain.set = sinon.spy();
 
@@ -49,7 +49,7 @@
             //make fetching 'fail' return a failed promise
             fetcher.fetchVideosForUser.withArgs('fail').returns(failPromise.promise);
 
-            latest = require('../src/lib/latest-videos')(brain, fetcher);
+            latest = new LatestVideos(brain, fetcher);
         });
 
         it('gets the initial information from the brain', function() {
@@ -63,7 +63,7 @@
                 set: sinon.spy()
             };
             customBrain.get.returns(null);
-            latest = require('../src/lib/latest-videos')(customBrain, fetcher);
+            latest = new LatestVideos(customBrain, fetcher);
 
             expect(customBrain.get).to.have.been.calledOnce
             expect(customBrain.set).to.have.been.calledWithExactly('youtubeFeed.latestVideos', []);
@@ -106,7 +106,7 @@
                 set: sinon.spy()
             };
             customBrain.get.returns([]);
-            latest = require('../src/lib/latest-videos')(customBrain, fetcher);
+            latest = new LatestVideos(customBrain, fetcher);
 
             latest.getLatestVideos('Eluinhost').then(
                 function success(data) {
