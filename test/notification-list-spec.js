@@ -9,15 +9,44 @@
 
         var list;
         var initialObject;
+        var latestVideos;
 
         beforeEach(function() {
             this.brain = {
                 get: sinon.stub(),
                 set: sinon.spy()
             };
+            latestVideos = {
+                getLatestVideos: sinon.spy(),
+                removeUser: sinon.spy()
+            };
             initialObject = {username: 'init-username', channels: ['#init-channel']};
             this.brain.get.returns([initialObject]);
-            list = new NotificationList(this.brain);
+            list = new NotificationList(this.brain, latestVideos);
+        });
+
+        it('should update latest videos when adding a new user', function() {
+            // add new channel for existing user
+            list.addNotificationsFor('init-username', '#init-channel-changed');
+            expect(latestVideos.getLatestVideos).to.have.not.been.called;
+
+            // add a channel for a new user
+            list.addNotificationsFor('init-username-changed', '#init-channel');
+            expect(latestVideos.getLatestVideos).to.have.been.calledOnce;
+        });
+
+        it('should remove user from latest videos when removing a user', function() {
+            // add a channel to the base user
+            list.addNotificationsFor('init-username', '#init-channel-changed');
+            expect(latestVideos.removeUser).to.have.not.been.called;
+
+            // remove the same channel
+            list.removeNotificationsFor('init-username', '#init-channel-changed');
+            expect(latestVideos.removeUser).to.have.not.been.called;
+
+            // remove the final channel
+            list.removeNotificationsFor('init-username', '#init-channel');
+            expect(latestVideos.removeUser).to.have.been.calledOnce;
         });
 
         it('gets the initial information from the brain', function() {

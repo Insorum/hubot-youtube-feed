@@ -2,10 +2,13 @@ var listKey = 'youtubeFeed.notifyFor';
 
 /**
  * @param brain - the brain to store the list in
+ * @param {LatestVideos} latestVideos - keeps track of the latest videos for users
  * @constructor
  */
-function NotificationList(brain) {
+function NotificationList(brain, latestVideos) {
     this.brain = brain;
+    this.latestVideos = latestVideos;
+
     this.saveNotifications = function () {
         this.brain.set(listKey, this.notifications);
     };
@@ -34,6 +37,9 @@ NotificationList.prototype = {
         // if the user doesn't already have an entry add one
         if (userChannels === null) {
             userChannels = [];
+
+            // update the user to add them to the latest videos list
+            this.latestVideos.getLatestVideos(username);
 
             this.notifications.push({
                 username: username,
@@ -88,6 +94,7 @@ NotificationList.prototype = {
                 return false;
             });
             this.notifications.splice(userIndex, 1);
+            this.latestVideos.removeUser(username);
         }
 
         // save the new data
