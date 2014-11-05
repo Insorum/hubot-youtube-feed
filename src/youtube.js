@@ -49,6 +49,7 @@ module.exports = function(robot) {
             );
         })
     };
+    checkForUpdates();
     setInterval(checkForUpdates, 1024 * 60 * 5);
 
     robot.respond(/yf add (.*?)$/i, function(msg) {
@@ -79,5 +80,9 @@ module.exports = function(robot) {
         }).join(', ');
 
         msg.reply('Notifications for this channel: ' + userList);
+    });
+
+    robot.respond(/yf check$/i, function(msg) {
+        checkForUpdates();
     });
 };
