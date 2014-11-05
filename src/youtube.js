@@ -16,11 +16,12 @@
 //   Eluinhost
 
 var VideoFetcher = require('./lib/video-fetcher.js');
+var LatestVideos = require('./lib/latest-videos.js');
 var NotificationList = require('./lib/notification-list.js');
 
 module.exports = function(robot) {
 
-    var notificationList = new NotificationList(robot.brain, new VideoFetcher());
+    var notificationList = new NotificationList(robot.brain, new LatestVideos(robot.brain, new VideoFetcher(robot)));
 
     var checkForUpdates = function() {
         notificationList.getNewNotifications().then(function(data) {
@@ -52,6 +53,7 @@ module.exports = function(robot) {
 
     robot.respond(/yf add (.*?)$/i, function(msg) {
         var name = msg.match[1];
+        console.log(msg.room);
         if(notificationList.addNotificationsFor(name, msg.room)) {
             msg.reply('Added notifications for: ' + name);
         } else {
