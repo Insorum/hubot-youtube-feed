@@ -141,6 +141,7 @@ NotificationList.prototype = {
      * @returns {Q.promise} resolves to [{username: string, channels: string[], videos: {id: string, link: string}}]
      */
     getNewNotifications: function() {
+        var def = q.defer();
         var promises = [];
         var notifications = [];
         var self = this;
@@ -164,7 +165,10 @@ NotificationList.prototype = {
             promises.push(promise);
         });
 
-        return q.allSettled(promises);
+        q.allSettled(promises).then(function() {
+            def.resolve(notifications);
+        });
+        return def.promise;
     }
 };
 
