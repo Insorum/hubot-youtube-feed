@@ -164,7 +164,7 @@ NotificationList.prototype = {
             promises.push(promise);
         });
 
-        return q.allSettled(promises).promise;
+        return q.allSettled(promises);
     }
 };
 
