@@ -21,7 +21,14 @@ var NotificationList = require('./lib/notification-list.js');
 
 module.exports = function(robot) {
 
-    var notificationList = new NotificationList(robot.brain, new LatestVideos(robot.brain, new VideoFetcher(robot)));
+    var notificationList;
+
+    robot.brain.on('loaded', function() {
+        notificationList = new NotificationList(robot.brain, new LatestVideos(robot.brain, new VideoFetcher(robot)));
+
+        checkForUpdates();
+        setInterval(checkForUpdates, 1024 * 60 * 5);
+    });
 
     var checkForUpdates = function() {
         notificationList.getNewNotifications().then(function(data) {
@@ -49,8 +56,6 @@ module.exports = function(robot) {
             );
         })
     };
-    checkForUpdates();
-    setInterval(checkForUpdates, 1024 * 60 * 5);
 
     robot.respond(/yf add (.*?)$/i, function(msg) {
         var name = msg.match[1];
@@ -71,18 +76,18 @@ module.exports = function(robot) {
     });
 
     robot.respond(/yf list$/i, function(msg) {
-        if(notificationList.notifications.length === 0) {
+        if(notificationList.get().length === 0) {
             msg.reply('No notifications are set for this channel');
             return;
         }
-        var userList = notificationList.notifications.map(function(element) {
+        var userList = notificationList.get().map(function(element) {
             return element.username;
         }).join(', ');
 
         msg.reply('Notifications for this channel: ' + userList);
     });
 
-    robot.respond(/yf check$/i, function(msg) {
+    robot.respond(/yf check$/i, function() {
         checkForUpdates();
     });
 };
