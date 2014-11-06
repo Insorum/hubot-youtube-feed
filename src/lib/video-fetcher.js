@@ -32,6 +32,11 @@ VideoFetcher.prototype = {
                 result.reject(e);
             }
 
+            if(!parsed.feed || !parsed.feed.entry) {
+                result.reject('invalid format of youtube data');
+                return;
+            }
+
             var videos = parsed.feed.entry.map(function(element) {
                 return {
                     id: element.id.$t,
