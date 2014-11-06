@@ -24,10 +24,12 @@ module.exports = function(robot) {
     var notificationList;
 
     robot.brain.on('loaded', function() {
-        notificationList = new NotificationList(robot.brain, new LatestVideos(robot.brain, new VideoFetcher(robot)));
+        if(!notificationList) {
+            notificationList = new NotificationList(robot.brain, new LatestVideos(robot.brain, new VideoFetcher(robot)));
 
-        checkForUpdates();
-        setInterval(checkForUpdates, 1024 * 60 * 5);
+            checkForUpdates();
+            setInterval(checkForUpdates, 1024 * 60 * 5);
+        }
     });
 
     var checkForUpdates = function() {
