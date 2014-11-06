@@ -2,7 +2,7 @@
 //   Youtube Feeds
 //
 // Dependencies:
-//   None
+//   q: ^1.0.1
 //
 // Configuration:
 //   None
