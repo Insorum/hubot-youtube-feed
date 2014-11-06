@@ -25,6 +25,9 @@ function NotificationList(brain, latestVideos) {
 }
 
 NotificationList.prototype = {
+    get: function() {
+        return this.notifications;
+    },
     /**
      * Adds the given username to the list of names for notifications
      *

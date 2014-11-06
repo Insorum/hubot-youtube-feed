@@ -5,13 +5,16 @@
     var expect = chai.expect;
     var q = require('q');
     var LatestVideos = require('../src/lib/latest-videos');
+    var Brain = require('../node_modules/hubot/src/brain');
 
     describe('latest-videos', function () {
 
         var latest, parsedData, withMissing, missingData, initialData;
 
         var fetcher = {};
-        var brain = {};
+        var brain;
+
+        var listKey = 'youtubeFeed.latestVideos';
 
         beforeEach(function () {
             parsedData = require('./data/parsed.json');
@@ -27,11 +30,10 @@
                 }
             ];
 
-            brain.get = sinon.stub();
-            brain.set = sinon.spy();
+            brain = new Brain({on: sinon.stub()});
 
             //set the initial data
-            brain.get.returns(initialData);
+            brain.set(listKey, initialData);
 
             //create a fake promise with all the data
             var dataPromise = q.defer();
@@ -53,20 +55,15 @@
         });
 
         it('gets the initial information from the brain', function() {
-            expect(brain.get).to.have.been.calledOnce;
             expect(latest.get()).to.be.deep.equal(initialData);
         });
 
         it('should set initial data if none already set', function() {
-            var customBrain = {
-                get: sinon.stub(),
-                set: sinon.spy()
-            };
-            customBrain.get.returns(null);
+            var customBrain = new Brain({on: sinon.stub()});
+
             latest = new LatestVideos(customBrain, fetcher);
 
-            expect(customBrain.get).to.have.been.calledOnce
-            expect(customBrain.set).to.have.been.calledWithExactly('youtubeFeed.latestVideos', []);
+            expect(customBrain.get(listKey)).to.be.deep.equal([]);
         });
 
         it('updates videos and returns the differences', function(done) {
@@ -77,9 +74,7 @@
                         expect(data.videos).to.have.length(2);
                         expect(data.videos).to.be.deep.equal(missingData);
                         expect(fetcher.fetchVideosForUser).to.have.been.calledWithExactly('Eluinhost');
-                        expect(brain.set).to.have.been.calledOnce;
-                        expect(brain.set).to.have.been.calledWithExactly(
-                            'youtubeFeed.latestVideos',
+                        expect(brain.get(listKey)).to.be.deep.equal(
                             [
                                 {
                                     name: 'Eluinhost',
@@ -101,11 +96,9 @@
 
         it('creates a new user on first fetch', function(done) {
             //initialize an empty version
-            var customBrain = {
-                get: sinon.stub(),
-                set: sinon.spy()
-            };
-            customBrain.get.returns([]);
+            var customBrain = new Brain({on: sinon.stub()});
+            customBrain.set(listKey, []);
+
             latest = new LatestVideos(customBrain, fetcher);
 
             latest.getLatestVideos('Eluinhost').then(
@@ -115,9 +108,7 @@
                         expect(data.videos).to.have.length(25);
                         expect(data.videos).to.be.deep.equal(parsedData);
                         expect(fetcher.fetchVideosForUser).to.have.been.calledWithExactly('Eluinhost');
-                        expect(customBrain.set).to.have.been.calledOnce;
-                        expect(customBrain.set).to.have.been.calledWithExactly(
-                            'youtubeFeed.latestVideos',
+                        expect(customBrain.get(listKey)).to.be.deep.equal(
                             [
                                 {
                                     name: 'Eluinhost',
@@ -137,14 +128,13 @@
             );
         });
 
-        it('should fail if the fetch fails and not save', function(done) {
+        it('should fail if the fetch fails and not change data', function(done) {
             latest.getLatestVideos('fail').then(
                 function success() {
                     done('Should not pass when fetch fails');
                 },
                 function fail(err) {
                     try {
-                        expect(brain.set).to.have.not.been.called;
                         expect(latest.get()).to.be.length(1);
                         expect(latest.get()).to.be.deep.equal(initialData);
                     } catch(e) {
