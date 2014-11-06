@@ -78,15 +78,14 @@ module.exports = function(robot) {
     });
 
     robot.respond(/yf list$/i, function(msg) {
-        if(notificationList.get().length === 0) {
+        var forChannel = notificationList.getUsersForChannel(msg.message.room);
+
+        if(forChannel.length === 0) {
             msg.reply('No notifications are set for this channel');
             return;
         }
-        var userList = notificationList.get().map(function(element) {
-            return element.username;
-        }).join(', ');
 
-        msg.reply('Notifications for this channel: ' + userList);
+        msg.reply('Notifications for this channel: ' + forChannel.join(', '));
     });
 
     robot.respond(/yf check$/i, function() {

@@ -28,6 +28,13 @@ NotificationList.prototype = {
     get: function() {
         return this.notifications;
     },
+    getUsersForChannel: function(channel) {
+        return this.notifications.filter(function(element) {
+            return element.channels.indexOf(channel) >= 0;
+        }).map(function(element) {
+            return element.username;
+        });
+    },
     /**
      * Adds the given username to the list of names for notifications
      *
